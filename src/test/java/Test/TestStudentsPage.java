@@ -2,6 +2,7 @@ package Test;
 
 import Base.BasePage;
 import Pages.StudentsPage;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -20,6 +21,11 @@ public class TestStudentsPage extends BasePage {
         studentsPage=new StudentsPage();
     }
 
+    @Test
+    public void verifyStudentPageTitle() {
+        //just call the login page , which will make the title page works...
+        Assert.assertEquals(studentsPage.getStudentsPageTitle(),prop.getProperty("STUDENT_PAGE_TITLE"));
+    }
     //RUN THIS TEST TO CHECK IF PAGE OBJECT MODEL IS WORKING ?
     @Test
     public void verifyAddStudents() throws InterruptedException {
@@ -47,6 +53,12 @@ public class TestStudentsPage extends BasePage {
         //verify the students create...... create another @Test method to verify the user created..
 
     }
+
+//    @Test
+//    public void verify
+
+
+
 
     @AfterMethod
     public void tearDown(){

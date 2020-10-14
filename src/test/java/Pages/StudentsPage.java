@@ -99,7 +99,7 @@ public class StudentsPage extends BasePage {
         createButton.click();
     }
 
-    public String getHomePageTitle(){
+    public String getStudentsPageTitle(){
         return wd.getTitle();
     }
 

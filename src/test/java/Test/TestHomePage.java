@@ -10,7 +10,9 @@ import org.testng.annotations.Test;
 
 public class TestHomePage extends BasePage {
 
-    public HomePage homePage;
+    //comment in Master Branch
+
+    HomePage homePage;//=new HomePage(); //homePage=?
 
     public TestHomePage(){
         super(); //will call BasePage();
@@ -18,11 +20,12 @@ public class TestHomePage extends BasePage {
 
     @BeforeMethod
     public void setUp(){
-        initialization();
+        initialization(); //webdriver, property file
+
         homePage=new HomePage();
     }
 
-    //RUN THIS TEST TO CHECK IF PAGE OBJECT MODEL IS WORKING ?
+    //RUN THIS TEST TO CHECK IF PAGE OBJECT MODEL IS WORKING?
     @Test
     public void verifyHomePageTitle() {
         //just call the login page , which will make the title page works...

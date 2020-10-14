@@ -9,6 +9,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import io.github.bonigarcia.wdm.SeleniumServerStandaloneManager;
 import org.testng.Assert;
 
 import java.util.ArrayList;
@@ -144,4 +145,11 @@ public class StudentDefs extends BasePage {
         wd.quit();
     }
 
+    @Then("^the User Lists is orderded \"([^\"]*)\"$")
+    public void theUserListsIsOrderded(String order) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        if(order.equals("ASC"))
+
+        throw new PendingException();
+    }
 }

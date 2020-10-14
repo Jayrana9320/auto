@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07ba952-38f4-45be-a0be-f2d7b69c0006" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chromedriver_old.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/DepartmentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/TestDepartmentPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BDD/Features/CreateStudent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/Features/CreateStudent.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BDD/Features/DeleteStudent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/Features/DeleteStudent.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BDD/StepsDef/StudentDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/StepsDef/StudentDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/StudentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/StudentsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/TestHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/TestStudentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/TestStudentsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/StudentsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/StudentsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/TestHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/TestStudentsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/TestStudentsPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +53,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Test" />
       <recent name="BDD.Runner" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -63,45 +76,7 @@
       <recent name="C:\JWS\Automation_ITSutra_Project_POM\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestHomePage">
-    <configuration name="Scenario: Delete all students matching name &quot;Raj&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/BDD/Features/DeleteStudent.feature" />
-      <option name="GLUE" value="BDD.StepsDef" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Project_Automation_ITsutra_POM" />
-      <option name="NAME_FILTER" value="^Delete all students matching name \&quot;Raj\&quot;$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Delete all students matching name \&quot;Raj\&quot;$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Delete all students matching name &quot;Raj&quot;" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Delete all students matching name &quot;Sandesh&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/BDD/Features/DeleteStudent.feature" />
-      <option name="GLUE" value="BDD.StepsDef" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Project_Automation_ITsutra_POM" />
-      <option name="NAME_FILTER" value="^Delete all students matching name \&quot;Sandesh\&quot;$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Delete all students matching name \&quot;Sandesh\&quot;$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Delete all students matching name &quot;Sandesh&quot;" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber java.Scenario: Verify Create Student">
     <configuration name="Scenario: Verify Create Student" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/BDD/Features/CreateStudent.feature" />
@@ -121,17 +96,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateStudent_Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDepartmentPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Project_Automation_ITsutra_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BDD.Runner.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BDD.Runner" />
-      <option name="MAIN_CLASS_NAME" value="BDD.Runner.CreateStudent_Runner" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestDepartmentPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,13 +130,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestHomePage.verifyHomePageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project_Automation_ITsutra_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestHomePage" />
+      <option name="METHOD_NAME" value="verifyHomePageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStudentsPage.verifyStudentPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project_Automation_ITsutra_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestStudentsPage" />
+      <option name="METHOD_NAME" value="verifyStudentPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestHomePage" />
         <item itemvalue="Cucumber java.Scenario: Verify Create Student" />
-        <item itemvalue="JUnit.CreateStudent_Runner" />
-        <item itemvalue="Cucumber java.Scenario: Delete all students matching name &quot;Raj&quot;" />
-        <item itemvalue="Cucumber java.Scenario: Delete all students matching name &quot;Sandesh&quot;" />
+        <item itemvalue="TestNG.TestStudentsPage.verifyStudentPageTitle" />
+        <item itemvalue="TestNG.TestHomePage.verifyHomePageTitle" />
+        <item itemvalue="TestNG.TestDepartmentPage" />
+        <item itemvalue="TestNG.TestHomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +216,22 @@
       <workItem from="1585853856073" duration="757000" />
       <workItem from="1585942666420" duration="131000" />
       <workItem from="1587737711951" duration="3096000" />
-      <workItem from="1587997648531" duration="3137000" />
+      <workItem from="1587997648531" duration="3939000" />
+      <workItem from="1588086556314" duration="5378000" />
+      <workItem from="1588171807878" duration="5131000" />
+      <workItem from="1588276433796" duration="7206000" />
+      <workItem from="1591829703399" duration="1110000" />
+      <workItem from="1592259701545" duration="1341000" />
+      <workItem from="1592343261537" duration="3252000" />
+      <workItem from="1592349399560" duration="540000" />
+      <workItem from="1592404921295" duration="6252000" />
+      <workItem from="1592514499832" duration="3483000" />
+      <workItem from="1592532987345" duration="654000" />
+      <workItem from="1592948325206" duration="1110000" />
+      <workItem from="1593213471980" duration="925000" />
+      <workItem from="1598374240090" duration="10620000" />
+      <workItem from="1599051058686" duration="1219000" />
+      <workItem from="1602621554319" duration="5430000" />
     </task>
     <servers />
   </component>
@@ -211,119 +239,61 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="26" key="#Project_Structure" timestamp="1588001630277">
+    <state x="422" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598374425881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="26" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1588001630277" />
-    <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582644935895">
+    <state x="422" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598374425881" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1602621609531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1582644935895" />
-    <state x="363" y="23" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1582652951089">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1602621609531" />
+    <state width="1367" height="173" key="GridCell.Tab.0.bottom" timestamp="1602624372744">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="23" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1366.728@0.0.1366.728" timestamp="1582652951089" />
-    <state x="556" y="146" key="#xdebugger.evaluate" timestamp="1582733034699">
+    <state width="1367" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1602624372744" />
+    <state width="1877" height="446" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-420.1920.1040@1366.-420.1920.1040" timestamp="1598461847441" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598375664350" />
+    <state width="1367" height="173" key="GridCell.Tab.0.center" timestamp="1602624372743">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="556" y="146" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1582733034699" />
-    <state width="432" height="438" key="DebuggerActiveHint" timestamp="1582732988422">
+    <state width="1367" height="173" key="GridCell.Tab.0.center/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1602624372743" />
+    <state width="1877" height="446" key="GridCell.Tab.0.center/0.0.1366.728/1366.-420.1920.1040@1366.-420.1920.1040" timestamp="1598461847441" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598375664350" />
+    <state width="1367" height="173" key="GridCell.Tab.0.left" timestamp="1602624372742">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="432" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1582732988422" />
-    <state width="1323" height="233" key="GridCell.Tab.0.bottom" timestamp="1588001674635">
+    <state width="1367" height="173" key="GridCell.Tab.0.left/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1602624372742" />
+    <state width="1877" height="446" key="GridCell.Tab.0.left/0.0.1366.728/1366.-420.1920.1040@1366.-420.1920.1040" timestamp="1598461847441" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598375664350" />
+    <state width="1367" height="173" key="GridCell.Tab.0.right" timestamp="1602624372743">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1237" height="258" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1582678599604" />
-    <state width="1323" height="233" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1588001674635" />
-    <state width="1323" height="7" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583277306979" />
-    <state width="1323" height="233" key="GridCell.Tab.0.center" timestamp="1588001674635">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1237" height="258" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1582678599604" />
-    <state width="1323" height="233" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1588001674635" />
-    <state width="1323" height="7" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583277306978" />
-    <state width="1323" height="233" key="GridCell.Tab.0.left" timestamp="1588001674634">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1237" height="258" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1582678599603" />
-    <state width="1323" height="233" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1588001674634" />
-    <state width="1323" height="7" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583277306978" />
-    <state width="1323" height="233" key="GridCell.Tab.0.right" timestamp="1588001674635">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1237" height="258" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1582678599604" />
-    <state width="1323" height="233" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1588001674635" />
-    <state width="1323" height="7" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583277306978" />
-    <state width="1323" height="7" key="GridCell.Tab.1.bottom" timestamp="1583277306979">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1237" height="258" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1582678634612" />
-    <state width="1323" height="7" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583277306979" />
-    <state width="1323" height="7" key="GridCell.Tab.1.center" timestamp="1583277306979">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1237" height="258" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1582678634612" />
-    <state width="1323" height="7" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583277306979" />
-    <state width="1323" height="7" key="GridCell.Tab.1.left" timestamp="1583277306979">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1237" height="258" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1582678634611" />
-    <state width="1323" height="7" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583277306979" />
-    <state width="1323" height="7" key="GridCell.Tab.1.right" timestamp="1583277306979">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1237" height="258" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1582678634612" />
-    <state width="1323" height="7" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583277306979" />
-    <state x="391" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1585662173801">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="391" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585662173801" />
-    <state x="391" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584141946241" />
-    <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1582741914250">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1582741914250" />
-    <state x="92" y="92" width="1182" height="544" key="dock-window-2" timestamp="1582741914250">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="92" y="92" width="1182" height="544" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1582741914250" />
-    <state x="92" y="92" width="1182" height="544" key="dock-window-3" timestamp="1582741914250">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="92" y="92" width="1182" height="544" key="dock-window-3/0.0.1366.728@0.0.1366.728" timestamp="1582741914250" />
-    <state x="1427" y="-1392" key="new project wizard" timestamp="1583185248173">
-      <screen x="1366" y="-1392" width="1280" height="680" />
-    </state>
-    <state x="1427" y="-1392" key="new project wizard/0.0.1366.728/1366.-1392.1280.680@1366.-1392.1280.680" timestamp="1583185248173" />
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1582825434359" />
-    <state x="435" y="295" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1582646622423">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="435" y="295" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1582646622423" />
+    <state width="1367" height="173" key="GridCell.Tab.0.right/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1602624372743" />
+    <state width="1877" height="446" key="GridCell.Tab.0.right/0.0.1366.728/1366.-420.1920.1040@1366.-420.1920.1040" timestamp="1598461847441" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598375664350" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Pages/StudentsPage.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BDD/StepsDef/StudentDefs.java</url>
-          <line>129</line>
+          <line>130</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BDD/StepsDef/StudentDefs.java</url>
-          <line>119</line>
+          <line>120</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BDD/StepsDef/StudentDefs.java</url>
-          <line>108</line>
+          <line>109</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test/TestStudentsPage.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

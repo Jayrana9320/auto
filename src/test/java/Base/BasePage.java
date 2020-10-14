@@ -1,5 +1,6 @@
 package Base;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -9,6 +10,7 @@ import java.util.Properties;
 
 
     public class BasePage {
+
         public static WebDriver wd;
         public static Properties prop;
 
@@ -28,7 +30,8 @@ import java.util.Properties;
         public void initialization(){
             String browsername=prop.getProperty("browser"); //reading from
             if(browsername.equals("chrome")){
-                System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+                //System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+                WebDriverManager.chromedriver().setup();
                 wd=new ChromeDriver();
             }
             else if(browsername.equals("firefox")){

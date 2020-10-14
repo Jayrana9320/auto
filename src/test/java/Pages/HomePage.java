@@ -14,8 +14,10 @@ public class HomePage extends BasePage {
     @FindBy(className="jumbotron")
     WebElement bannerTitle;
 
-
     public HomePage() {
+        //PageFactory.initElements(driver, pageObjectClass)
+        // implicitly creates the findElement calls behind the scene.
+        //super();
         PageFactory.initElements(wd,this);
     }
 
